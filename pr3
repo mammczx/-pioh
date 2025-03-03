@@ -1,0 +1,9 @@
+let names = ["Іван", "Марія", "Олександр", "Олена", "Петро"];
+
+let nameLengths = {};
+
+names.forEach(name => {
+  nameLengths[name] = name.length;
+});
+
+console.log(nameLengths);
